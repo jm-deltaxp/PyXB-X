@@ -436,7 +436,7 @@ class AutomatonConfiguration (object):
             desc = self.__instance._ExpandedName
             if desc is None:
                 desc = type(self.__instance)
-            _log.warning('Multiple accepting paths for %s', desc)
+            # _log.warning('Multiple accepting paths for %s', desc)
             '''
             for (cfg, actions) in multi:
                 foo = type(self.__instance)()
