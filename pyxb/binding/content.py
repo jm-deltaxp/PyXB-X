@@ -327,7 +327,7 @@ class AutomatonConfiguration (object):
     # defining schema.
     __multi = None
 
-    PermittedNondeterminism = 20
+    PermittedNondeterminism = 80
     """The maximum amount of unresolved non-determinism that is acceptable.
     If the value is exceeded, a L{pyxb.ContentNondeterminismExceededError}
     exception will be raised."""
